@@ -1,0 +1,44 @@
+
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+<LINK REL=stylesheet HREF="script/toc.css" TYPE="text/css">
+<SCRIPT LANGUAGE="JavaScript" src="script/AdminTree.js"></script>
+<STYLE TYPE='text/css'>
+.level1 {margin-left:30;}
+.level2 {display:none;margin-left:38;}
+</STYLE>
+</HEAD>
+<BODY onload="init()" topmargin="0" leftmargin="0" rightmargin="0">
+<DIV CLASS="level1" ID='head2Parent'>
+	<A class=OUTDENT href="" onclick='return expandIt("head2");'><IMG border=0 name=imEx  src="images/arrowUp.gif" id=ttt> 运动员管理</a>
+</DIV>
+
+<DIV CLASS="level2" ID='head2Child'>
+	<A href="playerview.jsp" id=ttt target=main onclick="doClick()"><LI>运动员列表</LI></a>
+
+</DIV>
+
+<DIV CLASS="level1" ID='head3Parent'>
+	<A class=OUTDENT href="" onclick='return expandIt("head3");' id=ttt><IMG border=0 height=13 name=imEx  src="images/arrowUp.gif" width=17> 比赛管理</a>
+</DIV>
+
+<DIV CLASS="level2" ID='head3Child'>
+	<A href="itemview.jsp" id=ttt target=main><LI>项目列表</LI></a>
+	<A href="addgames.jsp" id=ttt target=main><LI>添加项目</LI></a>
+</DIV>
+
+<DIV CLASS="level1" ID='head4Parent'>
+	<A class=OUTDENT href="" onclick='return expandIt("head4");'  ><IMG border=0 height=13 name=imEx  src="images/arrowUp.gif" width=17> 成绩管理</a>
+</DIV>
+
+<DIV CLASS="level2" ID='head4Child'>
+    <A href="search.jsp"   target=main><LI>搜索</LI></a>
+	<A href="scores.jsp"   target=main><LI>成绩总表</LI></a>
+	<A href="award.jsp"   target=main><LI>获奖情况</LI></a>
+</DIV>
+
+
+
+</BODY>
+</html>
